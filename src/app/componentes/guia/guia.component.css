@@ -1,0 +1,61 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #555;
+    font-size: 24px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    color: #333;
+    font-size: 20px;
+  }
+  
+  .card-subtitle {
+    color: #555;
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  
+  .card-text {
+    color: #777;
+    font-size: 16px;
+  }
+  
+  pre {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  code {
+    font-family: Consolas, monospace;
+    color: #333;
+  }

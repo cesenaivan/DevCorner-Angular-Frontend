@@ -1,0 +1,48 @@
+.testimonial-card .card-up {
+    height: 120px;
+    overflow: hidden;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+.testimonial-card .avatar {
+  width: 110px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+.star{
+  margin-right: 10px;
+}
+.star:last-child {
+  margin-right: 0;
+}
+
+.custom-shadow {
+  box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.25);
+}
+.ccbackground1{
+  background-color: #eab7b7;
+}
+.ccbackground2{
+  background-color: #b7c9e9;
+}
+.ccbackground3{
+  background-color: #e8b7ea;
+}
+.custom-circle1 {
+  border: 2px solid #af3333;
+  padding: 2px;
+}
+.custom-circle2 {
+  border: 2px solid #3561ae;
+  padding: 2px;
+}
+.custom-circle3 {
+  border: 2px solid #aa33af;
+  padding: 2px;
+}
+
+/* *{
+  outline: 2px red solid;
+} */

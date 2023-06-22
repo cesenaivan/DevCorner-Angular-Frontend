@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+  
+  <title>Guía de AWS</title>
+</head>
+<body>
+
+    <style>
+        /* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #555;
+    font-size: 24px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    color: #333;
+    font-size: 20px;
+  }
+  
+  .card-subtitle {
+    color: #555;
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  
+  .card-text {
+    color: #777;
+    font-size: 16px;
+  }
+  
+  pre {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  code {
+    font-family: Consolas, monospace;
+    color: #333;
+  }
+    </style>
+  <div class="container py-5">
+    <!-- Clase 'container' define un contenedor con un ancho máximo y un espacio de relleno en todos los lados -->
+    <h1 class="mb-4">Guía para empezar con AWS</h1>
+
+    <div class="card">
+      <!-- Clase 'card' crea una tarjeta con un estilo de borde y sombra -->
+      <div class="card-body">
+        <h2 class="card-title">Introducción</h2>
+        <p class="card-text">Bienvenido a nuestra guía para comenzar a utilizar Amazon Web Services (AWS). En esta guía, te proporcionaremos instrucciones paso a paso para crear una cuenta de AWS, familiarizarte con los servicios principales y comenzar a utilizarlos.</p>
+      </div>
+    </div>
+
+    <div class="card mt-4">
+      <!-- Clase 'mt-4' añade un margen superior de tamaño 4 -->
+      <div class="card-body">
+        <h2 class="card-title">Paso 1: Crear una cuenta de AWS</h2>
+        <ol>
+          <li>Abre tu navegador web y visita el sitio web oficial de AWS en <a href="https://aws.amazon.com" target="_blank">aws.amazon.com</a>.</li>
+          <li>Haz clic en el botón "Crear una cuenta gratuita".</li>
+          <li>Sigue las instrucciones y proporciona la información requerida para crear tu cuenta.</li>
+          <li>Proporciona los detalles de pago, aunque muchos servicios de AWS ofrecen una capa gratuita con ciertos límites.</li>
+          <li>Confirma tu identidad siguiendo los pasos indicados por AWS.</li>
+          <li>Una vez creada tu cuenta, inicia sesión en la Consola de administración de AWS.</li>
+        </ol>
+
+        <p class="mt-3">¡Felicidades! Has creado tu cuenta de AWS y estás listo para comenzar.</p>
+      </div>
+    </div>
+
+    <div class="card mt-4">
+      <!-- Clase 'mt-4' añade un margen superior de tamaño 4 -->
+      <div class="card-body">
+        <h2 class="card-title">Paso 2: Explorar los servicios principales</h2>
+
+        <h3 class="card-subtitle mt-3">Amazon S3</h3>
+        <p>Amazon S3 (Simple Storage Service) es un servicio de almacenamiento en la nube altamente escalable y seguro. Permite almacenar y recuperar datos desde cualquier ubicación en Internet. Para comenzar con S3:</p>
+        <ul>
+          <li>Accede a la Consola de administración de AWS.</li>
+          <li>Busca "S3" en el panel de servicios y haz clic en él.</li>
+          <li>Sigue las instrucciones para crear un bucket (contenedor de almacenamiento) y cargar archivos en él.</li>
+        </ul>
+
+        <h3 class="card-subtitle mt-3">Amazon EC2</h3>
+        <p>Amazon EC2 (Elastic Compute Cloud) es un servicio de computación en la nube que proporciona capacidades de servidor virtual escalables. Para comenzar con EC2:</p>
+        <ul>
+          <li>Accede a la Consola de administración de AWS.</li>
+          <li>Busca "EC2" en el panel de servicios y haz clic en él.</li>
+          <li>Sigue las instrucciones para lanzar una instancia EC2 y conectarte a ella.</li>
+        </ul>
+
+        <h3 class="card-subtitle mt-3">Amazon RDS</h3>
+        <p>Amazon RDS (Relational Database Service) es un servicio de bases de datos relacionales en la nube. Permite configurar, operar y escalar bases de datos de manera sencilla. Para comenzar con RDS:</p>
+        <ul>
+          <li>Accede a la Consola de administración de AWS.</li>
+          <li>Busca "RDS" en el panel de servicios y haz clic en él.</li>
+          <li>Sigue las instrucciones para crear una instancia de base de datos RDS.</li>
+        </ul>
+
+        <p>Explora otros servicios de AWS como Amazon DynamoDB, AWS Lambda, Amazon SNS, etc., para ampliar tus conocimientos y capacidades.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

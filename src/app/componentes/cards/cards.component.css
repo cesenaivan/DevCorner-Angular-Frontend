@@ -1,0 +1,132 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-weight: bold;
+}
+.contenedor-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.contenedor-botones-js {
+    display: flex;
+    justify-content: center;
+}
+.contenedor-botones-js a{
+    text-decoration: none;
+    display:inline-block;
+    width:25%;
+    padding:5px;
+    border-radius:50px;
+    text-decoration: none;
+    background: gold;
+    color:black;
+    font-weight: bold;
+    transition: all 0.5s;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.contenedor-botones-js a:hover{
+    background:rgb(255, 234, 117);
+    color:black;
+}
+.contenedor-botones-html {
+    display: flex;
+    justify-content: center;
+}
+.contenedor-botones-html a{
+    text-decoration: none;
+    display:inline-block;
+    width:25%;
+    padding:5px;
+    border-radius:50px;
+    text-decoration: none;
+    background: rgb(255, 131, 77);
+    color:black;
+    font-weight: bold;
+    transition: all 0.5s;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.contenedor-botones-html a:hover{
+    background:rgb(253, 177, 144);
+    color:black;
+}
+.contenedor-botones-css {
+    display: flex;
+    justify-content: center;
+}
+.contenedor-botones-css a{
+    text-decoration: none;
+    display:inline-block;
+    width:25%;
+    padding:5px;
+    border-radius:50px;
+    text-decoration: none;
+    background: rgb(71, 160, 255);
+    color:black;
+    font-weight: bold;
+    transition: all 0.5s;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.contenedor-botones-css a:hover{
+    background:rgb(162, 207, 255);
+    color:black;
+}
+
+.navbar {
+    background-color: gold;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-weight: bold;
+}
+.btn {
+    background-color: #fdfd96;
+    transition: background-color 0.3s ease;
+    color: black;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-weight: bold
+}
+.btn:hover {
+    background-color: hsl(51, 90%, 70%);
+    /* Cambiar el segundo valor para ajustar el brillo */
+}
+.animated-button:focus {
+    outline: none;
+    /* Para evitar el resaltado predeterminado del botón al hacer clic */
+}
+section.row1 {
+    background-color: #d9f7f9;
+}
+section.row2 {
+    background-color: rgb(255, 255, 192);
+}
+
+section.row3 {
+    background-color: rgb(255, 224, 188);
+}
+
+.card {
+    color: black;
+    background-color: white;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    transition: all 0.3s ease;
+
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-weight: bold;
+}

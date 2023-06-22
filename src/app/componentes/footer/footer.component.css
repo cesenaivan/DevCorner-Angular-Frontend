@@ -1,0 +1,26 @@
+footer div button{
+  width: 4rem;
+  border: none;
+}
+
+footer div button:hover{
+  scale: 1.05;
+  opacity: 0.9;
+}
+#footer{
+background: linear-gradient(to right, #bbe0e6, #f0e36a, #d193ea);
+  background-size: 200% 200%;
+  animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

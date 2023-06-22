@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+  
+  <title>Guía de Java</title>
+</head>
+<body>
+    <style>
+        /* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #555;
+    font-size: 24px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    color: #333;
+    font-size: 20px;
+  }
+  
+  .card-subtitle {
+    color: #555;
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  
+  .card-text {
+    color: #777;
+    font-size: 16px;
+  }
+  
+  pre {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  code {
+    font-family: Consolas, monospace;
+    color: #333;
+  }
+    </style>
+  <div class="container py-5">
+    <!-- Clase 'container' define un contenedor con un ancho máximo y un espacio de relleno en todos los lados -->
+    <h1 class="mb-4">Guía para instalar y empezar con Java</h1>
+
+    <div class="card">
+      <!-- Clase 'card' crea una tarjeta con un estilo de borde y sombra -->
+      <div class="card-body">
+        <h2 class="card-title">Introducción</h2>
+        <p class="card-text">Bienvenido a nuestra guía para comenzar a programar en Java. En esta guía, te proporcionaremos instrucciones paso a paso para instalar Java en tu sistema y te daremos los primeros pasos para comenzar a escribir y ejecutar código Java.</p>
+      </div>
+    </div>
+
+    <div class="card mt-4">
+      <!-- Clase 'mt-4' añade un margen superior de tamaño 4 -->
+      <div class="card-body">
+        <h2 class="card-title">Instalación de Java</h2>
+
+        <h3 class="card-subtitle mt-3">Paso 1: Descargar Java Development Kit (JDK)</h3>
+        <ol>
+          <li>Abre tu navegador web y visita el sitio web oficial de Oracle en <a href="https://www.oracle.com/java/technologies/javase-jdk11-downloads.html" target="_blank">oracle.com</a>.</li>
+          <li>En la sección "Java SE Development Kit", elige la versión más reciente de JDK para tu sistema operativo y haz clic en el enlace de descarga correspondiente.</li>
+          <li>Acepta los términos y condiciones y selecciona la descarga adecuada para tu sistema operativo (Windows, Linux o macOS).</li>
+          <li>Espera a que se complete la descarga.</li>
+        </ol>
+
+        <h3 class="card-subtitle mt-3">Paso 2: Instalar JDK</h3>
+        <ol>
+          <li>Ejecuta el archivo de instalación que descargaste anteriormente.</li>
+          <li>Sigue las instrucciones en pantalla y completa la instalación.</li>
+          <li>Asegúrate de configurar las variables de entorno del sistema para que Java se pueda ejecutar desde cualquier ubicación en tu sistema.</li>
+        </ol>
+
+        <p class="mt-3">¡Felicidades! Has instalado Java Development Kit en tu sistema.</p>
+      </div>
+    </div>
+
+    <div class="card mt-4">
+      <!-- Clase 'mt-4' añade un margen superior de tamaño 4 -->
+      <div class="card-body">
+        <h2 class="card-title">Primeros pasos con Java</h2>
+
+        <h3 class="card-subtitle mt-3">Paso 1: Configurar el entorno de desarrollo</h3>
+        <p>Para comenzar a programar en Java, necesitarás un entorno de desarrollo integrado (IDE). Hay varios IDE populares disponibles para Java, como Eclipse, IntelliJ IDEA y NetBeans. Elige el que más te guste y descárgalo desde su sitio web oficial.</p>
+
+        <h3 class="card-subtitle mt-3">Paso 2: Escribir y ejecutar código Java</h3>
+        <p>Una vez que hayas configurado tu IDE, estás listo para escribir y ejecutar tu primer programa en Java. Aquí tienes un ejemplo sencillo de un programa "Hola, mundo":</p>
+
+        <pre><code>public class HolaMundo {
+  public static void main(String[] args) {
+    System.out.println("¡Hola, mundo!");
+  }
+}</code></pre>
+
+        <p>Copia este código en tu IDE, guarda el archivo con el nombre "HolaMundo.java" y ejecútalo. Verás la salida "¡Hola, mundo!" en la consola de tu IDE.</p>
+      </div>
+    </div>
+
+    <div class="card mt-4">
+      <!-- Clase 'mt-4' añade un margen superior de tamaño 4 -->
+      <div class="card-body">
+        <h2 class="card-title">Ejercicio 1: Saludo personalizado</h2>
+        <p>Ahora es tu turno. Modifica el código anterior para que imprima un saludo personalizado con tu nombre. Por ejemplo:</p>
+
+        <pre><code>public class HolaPersonalizado {
+  public static void main(String[] args) {
+    String nombre = "Tu nombre";
+    System.out.println("¡Hola, " + nombre + "!");
+  }
+}</code></pre>
+
+        <p>Cambia `"Tu nombre"` por tu nombre real, guarda los cambios y ejecuta el programa nuevamente para ver el saludo personalizado.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
